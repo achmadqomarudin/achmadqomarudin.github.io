@@ -85,18 +85,18 @@ header li img {
   font-family: Coyote, sans-serif;
   font-size: 18px;
   padding: 12px 2vw;
-  border: 2px solid #ff3259;
+  border: 2px solid #00FF7F;
   border-radius: 50px;
   color: #fff;
-  background: #ff3259;
+  background: #00FF7F;
   width: 10vw;
   transition: 0.4s ease-in-out;
 }
 
 #main button:hover {
   transform: scale(1.06);
-  background: #ff4366;
-  border: 2px solid #ff4366;
+  background: #90EE90;
+  border: 2px solid #90EE90;
   cursor: pointer;
 }
 
