@@ -95,15 +95,15 @@ header li img {
 
 #main button:hover {
   transform: scale(1.06);
-  background: #90EE90;
-  border: 2px solid #ffffff;
+  background: #3CB371;
+  border: 2px solid #3CB371;
   cursor: pointer;
 }
 
 #main button:active {
   transform: scale(0.6);
   background: #ff1640;
-  border: 2px solid #ffffff;
+  border: 2px solid #ff1640;
 }
 
 #main span {
@@ -149,7 +149,7 @@ a {
 }
 
 a:hover {
-  color: #ff3259;
+  color: #00FF7F;
   cursor: pointer;
 }
 
