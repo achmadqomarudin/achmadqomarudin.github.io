@@ -88,7 +88,7 @@ header li img {
   border: 2px solid #00FF7F;
   border-radius: 50px;
   color: #fff;
-  background: #00FF7F;
+  background: transparent;
   width: 10vw;
   transition: 0.4s ease-in-out;
 }
