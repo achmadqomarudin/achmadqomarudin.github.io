@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-
+    
   <link rel="icon" href="https://avatars3.githubusercontent.com/u/36105478" type="image/png">
   <meta name="google-site-verification" content="mjFIZTxE_IKhH-lBgPwblCJ1xPugeI5RRe0qnXF10M8" />
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
@@ -26,7 +26,7 @@
   <link rel="canonical" href="https://imfunniee.github.io/" />
   <link rel="stylesheet" href="./assets/css/index.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-modal/2.2.6/css/bootstrap-modal.min.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/css/bootstrap.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 </head>
 
 <body>
@@ -43,7 +43,7 @@
         <li style="float:left;">
           <img src="./assets/images/logo.png" alt="funny's logo" />
         </li>
-        <li><a class="swipe" href="#" data-toggle="modal" data-target="#responsive" tabindex="4">contact</a></li>
+        <li><a class="swipe" href=""  data-toggle="modal" data-target="#exampleModal" tabindex="4">contact</a></li>
         <li><a class="swipe" href="https://dribbble.com/imfunniee" tabindex="3">ui</a></li>
         <li><a class="swipe" href="./dashboard_android.html" tabindex="2">web</a></li>
         <li><a class="swipe" tabindex="1" onclick="alert('working on it :)')">showreel</a></li>
@@ -74,7 +74,29 @@
     </footer>
   </div>
   </div>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-modal/2.2.6/js/bootstrap-modal.min.js"></script>
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   <script src="./assets/js/smooth.js"></script>
   <script type="text/javascript">
     var origin = 0.00;
@@ -83,41 +105,6 @@
       origin += 1.9;
     }, 100)
   </script>
-
-<div id="responsive" class="modal hide fade" tabindex="-1" data-width="760">
-  <div class="modal-header">
-    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-    <h3>Responsive</h3>
-  </div>
-  <div class="modal-body">
-    <div class="row-fluid">
-      <div class="span6">
-        <h4>Some Input</h4>
-        <p><input type="text" class="span12"></p>
-        <p><input type="text" class="span12"></p>
-        <p><input type="text" class="span12"></p>
-        <p><input type="text" class="span12"></p>
-        <p><input type="text" class="span12"></p>
-        <p><input type="text" class="span12"></p>
-        <p><input type="text" class="span12"></p>
-      </div>
-      <div class="span6">
-        <h4>Some More Input</h4>
-        <p><input type="text" class="span12"></p>
-        <p><input type="text" class="span12"></p>
-        <p><input type="text" class="span12"></p>
-        <p><input type="text" class="span12"></p>
-        <p><input type="text" class="span12"></p>
-        <p><input type="text" class="span12"></p>
-        <p><input type="text" class="span12"></p>
-      </div>
-    </div>
-  </div>
-  <div class="modal-footer">
-    <button type="button" data-dismiss="modal" class="btn">Close</button>
-    <button type="button" class="btn btn-primary">Save changes</button>
-  </div>
-</div>
 </body>
 
 </html>

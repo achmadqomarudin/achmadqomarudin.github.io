@@ -63,7 +63,7 @@ header li img {
 }
 
 #main {
-  width: 92vw;
+  width: 100%;
   padding: 0 4vw;
   height: 100vh;
   font-family: Coyote, sans-serif;
