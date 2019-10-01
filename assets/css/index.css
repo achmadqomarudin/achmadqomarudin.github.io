@@ -86,6 +86,13 @@ header li img {
   font-size: 55px;
 }
 
+p.text-modal{
+  font-size: 20px;
+  color: black;
+  text-align: center;
+  padding-top: 10px;
+}
+
 #main button {
   font-family: Coyote, sans-serif;
   font-size: 18px;
