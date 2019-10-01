@@ -40,6 +40,16 @@ header li a {
   position: relative;
 }
 
+header li a:hover{
+  display: block;
+  color: #00FF7F;	;
+  text-align: center;
+  padding: 10px 10px;
+  margin-left: 3vw;
+  text-decoration: none;
+  position: relative;
+}
+
 header li img {
   width: 30px;
   height: auto;
@@ -83,7 +93,8 @@ header li img {
 }
 #main div {
   margin: 10px 0;
-  font-size: 55px;
+  font-size: 50px; 
+  text-align: center;
 }
 .modal-dialog img{
   width: 70%;
@@ -106,6 +117,8 @@ p.text-modal{
   border: 2px solid #fff;
   border-radius: 50px;
   color: #fff;
+  margin: 0 auto;
+  margin-top: 20px;
   background: transparent;
   width: 10vw;
   transition: 0.4s ease-in-out;
@@ -158,6 +171,18 @@ footer li a {
   position: relative;
 }
 
+footer li a:hover {
+  display: block;
+
+  color: #00FF7F;
+  text-align: center;
+  padding: 10px 10px;
+  margin-left: 3vw;
+  text-decoration: none;
+  font-size: 17px;
+  position: relative;
+}
+
 .monea {
   font-weight: bold;
 }
@@ -167,7 +192,7 @@ a {
 }
 
 a:hover {
-  color: #00FF7F;
+  color: #3CB371;
   cursor: pointer;
 }
 
