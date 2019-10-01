@@ -75,10 +75,10 @@ header li img {
   position: absolute;
   background: radial-gradient(rgba(13, 6, 11, 0), rgba(13, 6, 11, 1));
 }
-.modal-open #main {
-  z-index:0 !
+.modal-open div#main {
+  z-index:auto
 }
-.model-open .modal-dialog{
+.modal-dialog{
   margin: auto !important
 }
 #main div {
