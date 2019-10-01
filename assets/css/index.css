@@ -75,7 +75,12 @@ header li img {
   position: absolute;
   background: radial-gradient(rgba(13, 6, 11, 0), rgba(13, 6, 11, 1));
 }
-
+.modal-open #main {
+  z-index:0 !
+}
+.model-open #main .modal-dialog{
+  margin: auto !important
+}
 #main div {
   margin: 30px 0;
   font-size: 55px;
