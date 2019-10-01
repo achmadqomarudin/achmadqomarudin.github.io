@@ -78,7 +78,7 @@ header li img {
 .modal-open #main {
   z-index:0 !
 }
-.model-open #main .modal-dialog{
+.model-open .modal-dialog{
   margin: auto !important
 }
 #main div {
