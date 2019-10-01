@@ -25,6 +25,8 @@
   <meta name="author" content="imfunniee">
   <link rel="canonical" href="https://imfunniee.github.io/" />
   <link rel="stylesheet" href="./assets/css/index.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-modal/2.2.6/css/bootstrap-modal.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/css/bootstrap.css" />
 </head>
 
 <body>
@@ -41,7 +43,7 @@
         <li style="float:left;">
           <img src="./assets/images/logo.png" alt="funny's logo" />
         </li>
-        <li><a class="swipe" href="mailto:achmadprogrammer@gmail.com" tabindex="4">contact</a></li>
+        <li><a class="swipe" href="#" data-toggle="modal" data-target="#responsive" tabindex="4">contact</a></li>
         <li><a class="swipe" href="https://dribbble.com/imfunniee" tabindex="3">ui</a></li>
         <li><a class="swipe" href="./dashboard_android.html" tabindex="2">web</a></li>
         <li><a class="swipe" tabindex="1" onclick="alert('working on it :)')">showreel</a></li>
@@ -56,7 +58,6 @@
     <button onclick="window.location = 'mailto:imfunny@wybemf.com'">hire me</button>
     <footer>
       <ul>
-        <li style="float:left"><b id="distance">0.00</b> m</li>
         <li style="margin-right:10px;">
           <a href="https://www.google.com/search?q=imfunniee"><i class="fab fa-google"></i></a>
         </li>
@@ -73,6 +74,7 @@
     </footer>
   </div>
   </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-modal/2.2.6/js/bootstrap-modal.min.js"></script>
   <script src="./assets/js/smooth.js"></script>
   <script type="text/javascript">
     var origin = 0.00;
@@ -81,6 +83,41 @@
       origin += 1.9;
     }, 100)
   </script>
+
+<div id="responsive" class="modal hide fade" tabindex="-1" data-width="760">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+    <h3>Responsive</h3>
+  </div>
+  <div class="modal-body">
+    <div class="row-fluid">
+      <div class="span6">
+        <h4>Some Input</h4>
+        <p><input type="text" class="span12"></p>
+        <p><input type="text" class="span12"></p>
+        <p><input type="text" class="span12"></p>
+        <p><input type="text" class="span12"></p>
+        <p><input type="text" class="span12"></p>
+        <p><input type="text" class="span12"></p>
+        <p><input type="text" class="span12"></p>
+      </div>
+      <div class="span6">
+        <h4>Some More Input</h4>
+        <p><input type="text" class="span12"></p>
+        <p><input type="text" class="span12"></p>
+        <p><input type="text" class="span12"></p>
+        <p><input type="text" class="span12"></p>
+        <p><input type="text" class="span12"></p>
+        <p><input type="text" class="span12"></p>
+        <p><input type="text" class="span12"></p>
+      </div>
+    </div>
+  </div>
+  <div class="modal-footer">
+    <button type="button" data-dismiss="modal" class="btn">Close</button>
+    <button type="button" class="btn btn-primary">Save changes</button>
+  </div>
+</div>
 </body>
 
 </html>
