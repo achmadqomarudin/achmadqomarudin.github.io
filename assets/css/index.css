@@ -122,6 +122,7 @@ p.text-modal{
   margin-top: 20px;
   background: transparent;
   width: 10vw;
+  font-weight: bold;
   transition: 0.4s ease-in-out;
 }
 
