@@ -95,6 +95,7 @@ header li img {
   margin: 10px 0;
   font-size: 50px; 
   text-align: center;
+  font-weight: bold;
 }
 .modal-dialog img{
   width: 70%;
