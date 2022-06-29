@@ -9,7 +9,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Inconsolata", monospace;
+  font-family: "Open Sans", sans-serif;
   color: #0d1e2d;
 }
 
@@ -23,7 +23,7 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6, .font-heading {
-  font-family: "Raleway", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .section {
@@ -36,6 +36,7 @@ h1, h2, h3, h4, h5, h6, .font-heading {
   display: inline-block;
   padding-left: 10px;
   padding-right: 10px;
+  font-weight: 500;
   position: relative;
 }
 .filters a:hover, .filters a:focus, .filters a:active {
@@ -48,10 +49,11 @@ h1, h2, h3, h4, h5, h6, .font-heading {
   right: 10px;
   bottom: 0;
   height: 1px;
-  background-color: #000;
+  background-color: #dca17d;
 }
 .filters a.active {
-  color: #000;
+  color: #dca17d;
+  font-weight: 500;
 }
 .filters a.active:before {
   content: "";
@@ -60,7 +62,7 @@ h1, h2, h3, h4, h5, h6, .font-heading {
   right: 10px;
   bottom: 0;
   height: 1px;
-  background-color: #000;
+  background-color: #dca17d;
 }
 
 .item {
@@ -130,7 +132,7 @@ h1, h2, h3, h4, h5, h6, .font-heading {
 
 .testimonial-wrap {
   padding: 50px 50px 80px 50px;
-  background: #eceff2;
+  background: #f0b48f1a;
 }
 .testimonial-wrap .testimonial {
   text-align: center;
@@ -243,45 +245,6 @@ h1, h2, h3, h4, h5, h6, .font-heading {
   padding-top: 10px;
 }
 
-/* Contact Form */
-.php-email-form .error-message {
-  display: none;
-  color: #fff;
-  background: #ed3c0d;
-  text-align: left;
-  padding: 15px;
-  font-weight: 600;
-}
-.php-email-form .error-message br + br {
-  margin-top: 25px;
-}
-.php-email-form .sent-message {
-  display: none;
-  color: #fff;
-  background: #18d26e;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-}
-.php-email-form .loading {
-  display: none;
-  background: #fff;
-  text-align: center;
-  padding: 15px;
-}
-.php-email-form .loading:before {
-  content: "";
-  display: inline-block;
-  border-radius: 50%;
-  width: 24px;
-  height: 24px;
-  margin: 0 10px -6px 0;
-  border: 3px solid #18d26e;
-  border-top-color: #eee;
-  -webkit-animation: animate-loading 1s linear infinite;
-  animation: animate-loading 1s linear infinite;
-}
-
 @-webkit-keyframes animate-loading {
   0% {
     transform: rotate(0deg);
@@ -299,6 +262,37 @@ h1, h2, h3, h4, h5, h6, .font-heading {
     transform: rotate(360deg);
   }
 }
+
+/*--------------------------------------------------------------
+# Back to top button
+--------------------------------------------------------------*/
+.back-to-top {
+  position: fixed;
+  visibility: hidden;
+  opacity: 0;
+  right: 15px;
+  bottom: 15px;
+  z-index: 996;
+  background: #dca17d;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  transition: all 0.4s;
+}
+.back-to-top i {
+  font-size: 28px;
+  color: #fff;
+  line-height: 0;
+}
+.back-to-top:hover {
+  background: #f0b48f;
+  color: #fff;
+}
+.back-to-top.active {
+  visibility: visible;
+  opacity: 1;
+}
+
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
@@ -423,37 +417,59 @@ h1, h2, h3, h4, h5, h6, .font-heading {
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
-.footer {
-  padding: 3rem 0 1rem 0;
-}
-.footer a {
-  color: #000;
+#footer {
+  background: #f0b48f0e;
+  color: #45505b;
+  font-size: 14px;
+  text-align: center;
+  padding: 30px 0;
 }
 
-.social a {
-  font-size: 24px;
-  display: inline-block;
-  color: #0d1e2d;
-  line-height: 2.2;
-  margin-right: 4px;
-  transition: 0.3s;
-  display: inline-block;
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  background: #f8f9fa;
+#footer h3 {
+  font-size: 36px;
+  font-weight: 700;
   position: relative;
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0 0 15px 0;
 }
 
-.social a span {
+#footer p {
+  font-size: 15;
+  font-style: italic;
+  padding: 0;
+  margin: 0 0 40px 0;
+}
+
+#footer .social-links {
+  margin: 0 0 40px 0;
+}
+
+#footer .social-links a {
+  font-size: 18px;
   display: inline-block;
-  left: 50%;
-  position: absolute;
-  top: 50%;
-  transform: translate(-50%, -50%);
+  background: #dca17d;
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
 }
 
-.social a:hover {
+#footer .social-links a:hover {
+  background: #f0b48f;
   color: #fff;
-  background: #dca17d;
+  text-decoration: none;
+}
+
+#footer .copyright {
+  margin: 0 0 5px 0;
+}
+
+#footer .credits {
+  font-size: 13px;
 }

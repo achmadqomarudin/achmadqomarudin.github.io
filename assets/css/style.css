@@ -997,6 +997,7 @@ ion-icon {
   text-align: center;
   padding: 30px 0;
 }
+
 #footer h3 {
   font-size: 36px;
   font-weight: 700;
@@ -1005,15 +1006,18 @@ ion-icon {
   padding: 0;
   margin: 0 0 15px 0;
 }
+
 #footer p {
   font-size: 15;
   font-style: italic;
   padding: 0;
   margin: 0 0 40px 0;
 }
+
 #footer .social-links {
   margin: 0 0 40px 0;
 }
+
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
@@ -1028,14 +1032,17 @@ ion-icon {
   height: 36px;
   transition: 0.3s;
 }
+
 #footer .social-links a:hover {
   background: #f0b48f;
   color: #fff;
   text-decoration: none;
 }
+
 #footer .copyright {
   margin: 0 0 5px 0;
 }
+
 #footer .credits {
   font-size: 13px;
 }
