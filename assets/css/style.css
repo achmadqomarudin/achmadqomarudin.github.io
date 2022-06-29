@@ -574,7 +574,7 @@ img.rounded-corners {
 }
 .portfolio .portfolio-wrap::before {
   content: "";
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(0, 0, 0, 0.9);
   position: absolute;
   left: 30px;
   right: 30px;
