@@ -82,7 +82,7 @@ h1, h2, h3, h4, h5, h6, .font-heading {
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.700);
+  background: rgba(0, 0, 0, 0.8);
   visibility: hidden;
   opacity: 0;
   transition: 0.3s all ease-in-out;
