@@ -48,7 +48,7 @@ h1, h2, h3, h4, h5, h6, .font-heading {
   left: 10px;
   right: 10px;
   bottom: 0;
-  height: 1px;
+  height: 2px;
   background-color: #dca17d;
 }
 .filters a.active {
@@ -61,7 +61,7 @@ h1, h2, h3, h4, h5, h6, .font-heading {
   left: 10px;
   right: 10px;
   bottom: 0;
-  height: 1px;
+  height: 2px;
   background-color: #dca17d;
 }
 
@@ -106,7 +106,7 @@ h1, h2, h3, h4, h5, h6, .font-heading {
 }
 .item .item-wrap > .work-info h3 {
   font-size: 20px;
-  margin-bottom: 0;
+  margin-bottom: 6px;
 }
 .item .item-wrap > .work-info span {
   font-size: 14px;
